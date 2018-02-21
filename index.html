@@ -1,0 +1,76 @@
+<!DOCTYPE html>             <!-- Declare that this an HTML5 document. -->
+<html lang="en">            <!-- Declare the content language. -->
+<head>
+    <meta charset="utf-8">  <!-- Declare the document's character set. -->
+    <title>Assassin Prototype</title>   <!-- Set the page title.  Will be displayed at the top of the browser window and in bookmarks.  -->
+    <link rel="stylesheet" href="index.css">    <!-- Include styles from index.css. -->
+</head>
+<body>
+
+      <div id="page">
+
+        <header>
+          <h1>Assassin Game Prototype</h1>
+        </header>
+
+        <main>
+
+          <section id="loginArea">
+            <scan id="loginIDText">Login ID: </scan><input type="text" id="loginID">
+            <button type="button" id="loginButton">Log In</button><br>
+            <button type="button" id="logoffButton">Log Off</button></section>
+          <section id="lastMessageArea">
+            <span id="lastMessage"></span>
+          </section>
+          <br>
+          <section id="currentPlayerDashboard">
+            <button type="button", id="takeABreakButton">Take a Break</button>
+            <button type="button", id="returnFromBreakButton">Return From Break</button><br><br>
+            <scan id="targetNameText">Your target's name : </scan><scan id="targetName"></scan><br><br>
+            <img id="targetPicture" src="" height="180" width="150"><br>
+            <scan id="targetsTargetText">Enter the name of your target's target : </scan><input type="text" id="targetsTarget">
+            <button type="button" id="confirmBountyButton">Confirm Bounty</button>
+          </section>
+          <br>
+          <section id="adminDashboard">
+            <scan id="reactivateText">Re-Activate Player ID: </scan><input type="text" id="reactivateID">
+            <button type="button" id="reactivateButton">Re-Activate Player</button><br><br>
+
+            <scan id="payBountyText">Pay Bounty Player ID: </scan><input type="text" id="payBountyID"><br>
+            <scan id="payBountiesNumberText">Number of bounties: </scan><input type="text" id="payBountiesNumber"><br>
+            <button type="button" id="payBountiesButton">Pay Bounties</button><br><br>
+
+            <scan id="addNewPlayerNameText">Add New Player:<br>
+            Name: </scan><input type="text" id="newPlayerName">
+            <scan id="addNewPlayerIDText"><br>
+            ID: </scan><input type="text" id="newPlayerID">
+            <button type="button" id="addNewPlayerButton">Add New Player</button><br><br>
+
+            <button type="button" id="startGameButton">Start Game</button>
+            <button type="button" id="bombButton">Bomb</button><br><br>
+
+            <br><scan id="activeChain"></scan><br>
+            <br><scan id="awaitingAssignment"></scan><br>
+            <br><scan id="inactive"></scan><br>
+            <br><scan id="onBreak"></scan><br>
+          </section>
+        </main>
+
+        <aside>
+          <section id="currentPlayerProfile">
+            <scan id="playerNameText">Player name : </scan><scan id="playerName"></scan><br><br>
+            <img id="playerPicture" src="" height="180" width="150"><br>
+            <scan id="playerStatusText">Player status : </scan><scan id="playerStatus"></scan><br>
+            <scan id="totalBountiesText">Total Bounties : </scan><scan id="totalBounties"></scan><br>
+            <scan id="owedBountiesText">Owed Bounties : </scan><scan id="owedBounties"></scan><br><br>
+            <button type="button", id="buyBackInButton">Reactivate</button><br>
+            </section>
+        </aside>
+
+    </div>
+
+    <!-- It is recommended to put <script> tags at the end of the <body>. -->
+    <script src="index.js"></script>    <!-- Include index.js as a JavaScript script file. -->
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* Put your CSS in this file. */
+
+body {
+    background-color: #ded29e;
+    font-family:      Tahoma, Geneva, sans-serif;
+    margin:           0px;
+    padding:          0px;
+}
+
+#page {
+    margin:           auto;
+    width:            960px;
+}
+
+header h1 {
+    text-align:       center;
+}
+
+
+main {
+    float:            left;
+    margin-right:     60px;
+    width:            650px;
+}
+
+aside {
+    background-color: #ded29e;
+
+    float:            right;
+    width:            250px;
+}
+
+aside section {
+    background-color: #ded29e;
+    margin:           1em 0px;
+    padding:          0 0.5em;
+}
+
+#logoffButton {
+  visibility: hidden;
+  }
+
+  #takeABreakButton {
+    visibility: hidden;
+    }
+
+      #returnFromBreakButton {
+        visibility: hidden;
+        }
+
+  #targetNameText {
+    visibility: hidden;
+    }
+
+  #targetPicture {
+      visibility: hidden;
+  }
+
+    #targetName {
+        visibility: hidden;
+    }
+
+    #targetsTargetText {
+        visibility: hidden;
+    }
+
+    #targetsTarget {
+        visibility: hidden;
+    }
+
+    #confirmBountyButton {
+        visibility: hidden;
+    }
+
+    #playerNameText {
+        visibility: hidden;
+    }
+    #playerName {
+        visibility: hidden;
+    }
+
+    #playerPicture {
+        visibility: hidden;
+    }
+    #playerStatusText {
+        visibility: hidden;
+    }
+    #playerStatus {
+        visibility: hidden;
+    }
+
+    #totalBountiesText {
+        visibility: hidden;
+    }
+    #totalBounties {
+        visibility: hidden;
+    }
+    #owedBountiesText {
+        visibility: hidden;
+    }
+    #owedBounties {
+        visibility: hidden;
+    }
+    #buyBackInButton{
+        visibility: hidden;
+    }
+
+
+    #reactivateText{
+        visibility: hidden;
+    }
+
+    #reactivateID{
+        visibility: hidden;
+    }
+
+    #reactivateButton{
+        visibility: hidden;
+    }
+
+
+
+
+    #payBountyText{
+        visibility: hidden;
+    }
+
+    #payBountyID{
+        visibility: hidden;
+    }
+
+    #payBountiesNumberText{
+        visibility: hidden;
+    }
+
+    #payBountiesNumber{
+        visibility: hidden;
+    }
+
+    #payBountiesButton{
+        visibility: hidden;
+    }
+
+    #addNewPlayerNameText{
+        visibility: hidden;
+    }
+    #newPlayerName{
+        visibility: hidden;
+    }
+    #addNewPlayerIDText{
+        visibility: hidden;
+    }
+    #newPlayerID{
+        visibility: hidden;
+    }
+    #addNewPlayerButton{
+        visibility: hidden;
+    }
+    #bombButton{
+        visibility: hidden;
+    }
+
+    #startGameButton{
+        visibility: hidden;
+    }
+
+    #activeChain{
+        visibility: hidden;
+    }
+    #awaitingAssignment{
+        visibility: hidden;
+    }
+    #inactive{
+        visibility: hidden;
+    }
